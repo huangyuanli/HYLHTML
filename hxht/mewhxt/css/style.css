@@ -1,0 +1,320 @@
+html body {margin: 0 auto;padding: 0;
+    top:0;bottom: 0}
+body select,body textarea,body input{
+    border-radius: 0px;
+}
+.container:before, .container:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.site-hd{
+    background-color: #f2f2f2;
+}
+h1, h2, h3 {
+    line-height: 40px;
+}
+#add_api h1,#add_api h2,#add_api h3,#add_api h4,#add_api h5,#add_api h6{
+    margin:0px;
+}
+a,a:hover,a:active,a:visited,a:focus{
+    color: #000; text-decoration: none;}
+.mheader{padding: 5px;margin:0 auto;width:90%;min-width:790px; margin-bottom:45px;height: 30px;}
+.footer{
+    background-color: #f2f2f2;width: 100%;
+  bottom: 1px;position: relative;
+}
+body .container{
+    width: 90%;margin:0 auto;min-width:790px;;height: auto !important;
+}
+.mpage-header {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    min-height: 70px;
+    padding-bottom: 9px;
+    margin: 20px 0 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.mpage-header .fh {
+    color: #0a6fe1;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.mpage-header .fb {
+    color: #999999;
+    font-size: 16px;
+    width: 200px;
+    margin:0px;
+}
+
+.mpage-header .ft {
+    float: left;
+    overflow-x: hidden;
+}
+
+.mpage-header .fb .fb2 {
+    text-align:right;
+    float: right;
+}
+.mpage-header .fb .fb1,.mpage-header .fb .fb2 {
+    letter-spacing: 20px;
+}
+.mpage-header .fr {
+    float: left;
+    line-height: 62px;
+    margin-left: 20px;
+}
+
+.yemjiao {
+    width: 90%;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+.mpage-header .fr{
+    letter-spacing: 5px;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left:-5px;
+}
+.left-nav{
+    background: #19669e;
+    width:200px;
+    margin-top:20px;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    font-size:20px;
+    min-height: 600px;
+    float: left;
+}
+.left-nav .header-title{
+   border-bottom: 1px solid #eeeeee;
+}
+.left-nav .mnav{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.left-nav .mnav li {
+    margin:5px 0;
+     line-height: 50px;
+    font-size: 16px;
+
+ }
+.left-nav .mnav li.active{
+    background:#003f6b;
+}
+.left-nav .mnav li a{
+    color: #fff;
+}
+section.content{
+    min-height: 250px;
+    margin-right: auto;
+    margin-left: 220px;
+    padding-top:20px;
+    min-height: 600px;
+
+}
+section.content .mbox{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius:20px;;
+    /*-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);*/
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, .05);*/
+    border:1px solid #ccc;
+}
+section.content .mbox .mbox-header{
+    color: #fff;
+    background-color: #19669e;
+    border-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 0 5px 30px;
+}
+section.content .mbox .mbox-header h1{
+    margin-top: 0px;
+    font-size:20px;
+    font-weight: 500;
+}
+.mbox .mbox-body{
+    padding:40px;
+    border-bottom: 1px solid #ccc;
+}
+.mbox .mbox-footer{
+    padding:40px;
+    height: auto;;
+    margin-bottom: 20px;
+}
+#api-list input.search-box{
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 300px;
+    border-radius: 16px;
+    outline:0px;
+    outline-offset: 0px;
+    text-indent:15px;
+}
+.grid-view{
+    margin-top: 20px;
+    height:auto;
+}
+.offset-bottom-50{
+    margin-bottom: 50px;
+}
+.offset-top-50{
+    margin-top: 50px;
+}
+.mtable{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size:14px;
+    font-weight: 500;
+}
+.mtable thead{
+    background-color: #19669e;
+    height:30px;
+    color:#fff;
+
+}
+.mbtn{
+    padding:5px;
+    border:1px solid #3cabfc;
+    margin:5px;
+}
+.mhr{
+    height: 1px;
+    border: none;
+    border-top: 1px solid #000;
+    width: 200px;
+    display: inline-block;
+    margin-top: 15px;
+    line-height: 60px;
+}
+.mbtn-blue,a.mbtn-blue,button.mbtn-blue {
+  background: #3cabfc;
+  color: #fff;
+}
+.mbtn-xs{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mbtn{
+    color: #3cabfc;
+    padding: 5px 15px;
+}
+.mtable-striped th, .mtable-striped td{
+    border:1px solid #ccc;
+    padding:5px;
+    height:30px;
+}
+
+
+.pagination {
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    list-style: none;
+}
+.pagination  li{
+    display: inline-block;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float:right;
+}
+.pagination  li  a {
+    background: #fff;
+    color: #1a1a1a;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+.pagination  li  a:hover{
+
+}
+.pagination  li.active  a{
+    color: #3cabfc;
+    border: 1px solid #3cabfc;
+}
+.text-center{
+    text-align: center;
+}
+.col-1{
+    width:10%;
+}
+.col-2{
+    width:20%;
+}
+.col-8{
+    width:80%;
+}
+.col-9{
+    width:90%;
+}
+.vtable tr{
+    min-height: 35px;
+}
+.vtable td{
+    min-height: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    min-width: 60px;
+}
+#add_api .grid-view .vtable td{
+    min-width:80px;
+    text-align: right;
+
+}
+/*#add_api .grid-view .vtable input, #add_api .grid-view .vtable select{*/
+/*width:300px;*/
+/*}*/
+#add_api .vtable input,#add_api  .vtable select, .vtable select option{
+    height:30px;
+    border:1px solid #ccc;
+    min-width: 50px;
+    outline:none;
+    float: left;
+    width: auto;
+    border-radius: 0px;
+}
+/*.modal-mask{*/
+    /*background: aqua;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*z-index: 1000;*/
+/*}*/
+/*.modal{*/
+    /*width:520px;*/
+    /*position: absolute;*/
+    /*z-index:1000;*/
+    /*background: #fff;*/
+    /*margin:auto; top: 25%;left: 0;right: 0;bottom: 0;*/
+    /*padding-bottom: 20px;*/
+/*}*/
+.modal .modal-header{
+    background-color: #0a6fe1;
+    color: #fff;
+}
+/*.modal .modal-body{*/
+
+    /*padding:10px 20px;*/
+/*}*/
+.ui-dialog-title{
+
+}

@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>实名认证</title>
+    <link href="../css/Home.css" rel="stylesheet" />
+    <link href="../css/base.css" rel="stylesheet" />
+    <link href="../css/vip1_2.css" rel="stylesheet" />
+    <style>
+        .scheme_left{
+            height:555px;
+        }
+        .scheme_right{
+            height:800px;
+        }          
+        .auth_table{
+            border:1px solid #ddd;
+        }
+        .auth_table input{
+            width:200px;
+            height:30px;
+            line-height:30px;
+            border:1px solid #ddd;
+        }
+                       
+        .auth_table  tr {
+            border:none;
+        }
+        .auth_table  tr td:first-child{
+            width:200px;
+            /*border:1px solid red;*/
+            /*text-align:right;*/
+        }       
+        .auth_table  tr td:first-child span{
+            color:red;
+        }   
+         .auth_table  tr td:first-child label{
+          text-align:right;
+          border:1px solid red;
+        }      
+        .auth_table  tr td:nth-child(2){
+            float:left;   
+        }
+        table .btnfile1 {
+            height: 100px;
+            width: 100px;
+            /*position: absolute;*/
+            /*right: 0;*/
+            left:0;
+            top: 0;
+            opacity: 1;
+            z-index: 1;
+        }
+        /*.auth_table tr td:nth-child(2) input {
+            border: 0;
+            flex: 1;
+            -webkit-flex: 1;
+            text-align: right;
+            font-size: .28rem;
+            height: 1rem;
+        }*/
+
+        .auth_table .card_pic>div{
+             float:left;
+             margin-right:20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 页眉 开始 -->
+    <div class="header">
+        <div class="header_top">
+            <div class="header_top_content">
+                <ul class="r right">
+                    <li><a target="_top" href="Inquire_about.html">登录/注册</a></li>
+                    <li><a target="_top" href="Inquire_about.html">会员中心</a></li>
+                    <li><a target="_top" href="Inquire_about.html">联系我们</a></li>
+                    <li><a target="_top" href="Inquire_about.html">常见问题</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_logo">
+            <div class="logo_left">
+                <a target="_top" href="index.html">
+                    <img src="../img/appimg/logo.png" />
+                </a>
+            </div>
+            <div class="logo_right">
+                <ul>
+                    <li>首页</li>
+                    <li class="active">产品中心</li>
+                    <li>最新产品</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="header_logo_hr" />
+    </div>
+    <!-- 页眉 结束 -->
+    <!--body 开始-->
+    <div class="body_con">
+        <!--body 左侧-->
+        <div class="scheme_left">
+            <div class="user_pic">
+                <img src="../../images/子公司1200_15.jpg" />
+            </div>
+            <p>账户名称:zhangsan</p>
+            <ul>
+                <li>
+                    <a href="">我的API</a>
+                </li>
+                <li>
+                    <a href="#">我的账户余额</a>
+                </li>
+                <li>
+                    <a href="#">我的充值记录</a>
+                </li>
+                <li>
+                    <a href="#">账户信息</a>
+                </li>
+                <li class="active">
+                    <a href="#">实名认证</a>
+                </li>
+                <li>
+                    <a href="#">密码修改</a>
+                </li>
+            </ul>
+        </div>
+        <!--body 右侧-->
+        <div class="scheme_right">
+            <div class="nav_01">
+                <p>实名认证<span style="color:red; font-size:12px;">(实名认证一经通过不得再次修改，后续充值付款的银行开户名必须与实名认证信息一致，否则不给予入账)</span></p>
+                <hr />
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;认证类型：
+                    <input type="radio" name="auth" />个人认证  &nbsp;&nbsp;
+                    <input type="radio" name="auth" />企业认证
+                </p>
+                <div style="border:1px solid #ddd;">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=" width:5px;height:5px; border-radius: 50%; display:inline-block; background:#549ef1; border: .1rem solid #549ef1;"></span> 基本信息</p>
+                    <table class="auth_table">
+                        <tr>
+                            <td><span>*</span><label>姓名：</label></td>
+                            <td><input type="text" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><span>*</span> 身份证号码：</td>
+                            <td><input type="text" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td><span>*</span> 身份证正面照：</td>
+                            <td>
+                                <div class="file">
+                                    <!--<img src="../img/appimg/AddImg.png" />-->
+                                    <input type="file" class="btnfile1" name="file" accept="image/png, image/jpeg, image/jpg" />
+                                </div>
+                                <span>图片大小不要超过2M，支持PNG、JPG格式</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>*</span> 身份证反面照：</td>
+                            <td>
+                                <div class="file">
+                                    <!--<img src="../img/appimg/AddImg.png" />-->
+                                    <input type="file" class="btnfile1" name="file" accept="image/png, image/jpeg, image/jpg" />
+                                </div>
+                                <span>图片大小不要超过2M，支持PNG、JPG格式</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>示例：</td>
+                            <td class="card_pic">
+                                <div>
+                                    <div class="file">
+                                        <!--<img src="../img/appimg/AddImg.png" />-->
+                                        <input type="file" class="btnfile1" name="file" accept="image/png, image/jpeg, image/jpg" />
+                                    </div>
+                                    <span>正面</span>
+                                </div>
+                                <div>
+                                    <div class="file">
+                                        <!--<img src="../img/appimg/AddImg.png" />-->
+                                        <input type="file" class="btnfile1" name="file" accept="image/png, image/jpeg, image/jpg" />
+                                    </div>
+                                    <span>反面</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" value="提交认证" style="width:80px; height:30px; background:#0094ff; color:#fff; " /></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--body 结束-->
+    <!--页脚 开始-->
+    <div class="footer">
+        <div class="footer_con">
+            <div>
+                <hr />
+                <span>END</span>
+                <hr />
+            </div>
+            <p>服务热线：0769-22501808    7-24热线 13310811808   邮箱：service@hsoar.com</p>
+            <p>地址：广东省东莞市旗峰路1号国泰大厦1208</p>
+            <p>关于API|联系我们|投诉建议</p>
+            <p>粤ICP备0B101122号@2012-2015 宏翔科技版权所有</p>
+        </div>
+    </div>
+    <!--页脚 结束-->
+</body>
+</html>

@@ -1,0 +1,305 @@
+﻿
+/*左侧*/
+.scheme_left {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    width: 20%;
+    height: auto;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background: url(../img/appimg/leftbeij.png) no-repeat;
+    background-size: 100% 100%;
+    -moz-box-flex: 3;
+    -webkit-box-flex: 3;
+    box-flex: 3;
+}
+.scheme_left .user_pic {    
+    padding-top:30px;
+}
+.scheme_left img {
+    width:65px;
+    height:65px;
+    border-radius:50px;
+}  
+
+.scheme_left ul li{
+    height:70px;
+    line-height:70px;
+    color:#fff;
+}
+.scheme_left ul .active    {
+    background:#007ACC; 
+    color:#fff;
+}
+.scheme_left ul li a:link,.scheme_left ul li a:visited {
+    color: #fff;
+}
+
+/****************** 我的API右侧 ******************/
+.scheme_right {
+    width: 79%;
+    border: 1px solid #eee;
+    margin-top: 15px;
+    border-left: none;
+}
+
+.scheme_right .nav_01{
+    width:93%;
+    height:50px; 
+    line-height:50px;
+    margin-left:35px;
+}
+.scheme_right .nav_01 li{
+    float:left;
+    margin-right:50px;
+}
+/*.scheme_right .nav_01 li div{
+        text-align:center;
+}*/
+ .scheme_right .nav_01 li div img{
+  vertical-align: middle;
+}
+
+.scheme_right .scheme_content{   
+    width:93%;
+    margin-left:35px;
+}
+.scheme_right .scheme_content .nav_name{
+    border-bottom:1px solid #ddd;
+    padding:8px 0 0 30px;
+}                               
+.scheme_right .scheme_content ul{
+    padding-left:30px;
+}
+.scheme_right .scheme_content ul li{
+    width:   185px;
+    height:225px;
+    float:left;
+    overflow:hidden;
+    border:2px solid #ddd;
+    margin:15px 15px 0 0;
+}
+
+   
+.scheme_right .scheme_content .li_p_01 ,.scheme_right .scheme_content .li_p_02  {
+    font-weight:bold;
+    height:40px;
+    line-height:40px;
+    /*border:1px solid blue;*/ 
+    text-align:center;
+}
+.new_con{
+    position:relative;
+}
+.scheme_right .scheme_content  .new_con{  
+    background: url(../img/appimg/icom_bc.png) no-repeat;
+    /*background-size: 60% 80%;*/
+    background-position:center center;
+    /*border:1px solid red;*/
+    height:60%;
+}                                        
+.scheme_right .scheme_content  .new_con p{
+    font-size:20px;
+    font-weight:bold;
+    /*height:60px;*/
+    /*line-height:60px;*/
+    color:#fff;
+   
+}
+.scheme_right .scheme_content .new_con p:first-child {
+    top: 31px;
+    right: 91px;
+    position: absolute;  
+}
+
+.scheme_right .scheme_content .new_con p:nth-child(2) {
+    left: 97px;
+    top: 68px;
+    display: inline-block;
+    position: absolute; 
+}
+
+
+/*******************  我的账户余额 右侧  ********************/
+.scheme_right .nav_01 .API_acount{
+	display:-moz-box;
+	display:-webkit-box;
+	display:box;
+    background:#eee;
+    padding-left:20px;
+}
+.scheme_right .nav_01 .API_acount div {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    |;
+}
+.scheme_right .nav_01 .API_acount div:nth-child(2){
+    display: -webkit-box;
+    display: -ms-box;
+    display: -moz-box;
+    display: -o-box;
+    box-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+}      
+.scheme_right .nav_01 .API_acount div:nth-child(2) input{
+    border: none;
+    margin-left: 10px;
+    display: block;
+}
+
+
+.scheme_right .nav_01 .API_btn {
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+ .scheme_right .nav_01 .API_btn span {
+    display: block;
+    padding:0 25px 0 25px;
+    background:#2e75f5 ;
+    color:#fff;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size:16px;
+}
+
+      
+.scheme_right .page_tip{   
+     height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /*display: none;*/
+}
+
+.scheme_right .page_tip .show{
+    height: auto;
+    width: 350px;
+    background: #fff;
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    left: 50%;
+    margin-left: -260px;
+}
+
+.scheme_right .page_tip .show p{
+    /*border:1px solid red;*/
+    height:40px;
+     line-height:40px;
+     padding-left:40px;
+     margin-top:20px;
+} 
+
+.scheme_right .page_tip .show p:nth-child(2){
+     margin-bottom:30px;
+}
+
+.scheme_right .page_tip .show p input{
+    border:1px solid #eee;
+    height:30px;
+    line-height:30px;
+}
+.scheme_right .page_tip .show div {
+    width: 100%;
+    height: 50px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    background:#2e75f5;
+}
+.scheme_right .page_tip .show div > div {   
+    text-align:center; 
+    height: 50px;
+    line-height:50px;
+    -moz-box-flex: 2;
+    -webkit-box-flex: 2;
+    box-flex: 2;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    border:1px solid #2e75f5;
+} 
+.scheme_right .page_tip .show div > div span{
+    padding:5px 15px 5px 15px;
+    background:#fff;
+}
+
+
+/********** Switch ***********/
+.mui-switch {
+    width: 80px;
+    height: 30px;
+    line-height:31px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+}
+.mui-switch:before {  
+    text-align:center;
+    content: 'ON';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.mui-switch:checked {
+    border-color: #64bd63;
+    box-shadow: #2e75f5 0 0 0 16px inset;
+    background-color: #2e75f5;
+}
+.mui-switch:checked:before {  
+    content: 'OFF';
+    left: 51px;
+    text-align:center;
+}
+
+
+/*******************  我的充值记录 右侧  ********************/
+.scheme_right .nav_01 table{
+    width:100%;
+    height:auto;
+}
+.scheme_right .nav_01 table tr{
+    height:40px;
+    line-height:40px;
+    border:1px solid #ddd;
+}        
+.scheme_right .nav_01 table tr td,.scheme_right .nav_01 table tr th{
+    text-align:center;
+}

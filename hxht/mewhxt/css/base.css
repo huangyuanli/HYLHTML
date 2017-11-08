@@ -1,0 +1,168 @@
+﻿@charset "UTF-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0
+}
+
+fieldset,img {
+    border: 0
+}
+
+:focus {
+    outline: 0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var,optgroup {
+    font-style: normal;
+    font-weight: 400
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Microsoft YaHei"
+}
+
+abbr,acronym {
+    border: 0;
+    font-variant: normal
+}
+
+code,kbd,samp,tt {
+    font-size: 100%
+}
+
+input,button,textarea,select {
+    *font-size: 100%;
+    border: 0
+}
+
+body {
+    background: #fff;
+    color: #646464;
+    font: 14px/2em Microsoft YaHei,SimSun,Arial;
+    height:auto;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th {
+    text-align: left;
+}
+
+sup,sub {
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+:link,:visited,ins {
+    text-decoration: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none;
+}
+
+a:link,a:visited {
+    color: #5e5e5e;
+}
+
+a:hover {
+    color: #c9394a;
+}
+
+a:active {
+    color: #666
+}
+
+.l {
+    float: left
+}
+
+.r {
+    float: right
+}
+i{
+	font-style: normal;
+}
+u{
+	text-decoration: none;
+}
+
+.Input{
+	padding:14px 0;
+	padding-left:10px;
+	width:450px;
+	border:1px solid #ddd;
+	/*color:#eee;*/
+}
+.Input::-webkit-input-placeholder {
+     /* WebKit browsers */
+     /*color:red;*/
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #666;
+}
+::-moz-placeholder { 
+    /* Mozilla Firefox 19+ */
+    color:#ddd;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ddd;
+}
+a.btn{
+	padding:14px 55px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #0377B2;
+	color:#fff;
+	behavior: url(js/ie-css3.htc);
+}
+a.inquiry{
+	color:#0377b2;
+}
+
+
+.tag{
+	display: none;
+}
+.bg_color{
+	font-size: 24px;
+	width:130px;
+	height:43px;
+	line-height: 43px;
+	background: #0377b2;
+	color:#fff;
+	text-align: center;
+}
+.bg_color a{
+	color:#fff;
+}
+.action{
+	background: url("../img/so_03.jpg") no-repeat;
+}
+.cooperation{
+	margin-top:155px;
+}
+.img_all{
+	width:100%;
+	/*height:100%;*/
+    height:auto;
+    background-color:#fff;
+}
